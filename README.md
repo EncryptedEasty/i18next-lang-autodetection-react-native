@@ -1,4 +1,4 @@
-### i18next-lang-autodetection-react-native
+### i18next-lang-autodetection-react-native ![npm](https://img.shields.io/npm/v/i18next-lang-autodetection-react-native?style=flat-square) ![NPM](https://img.shields.io/npm/l/i18next-lang-autodetection-react-native?style=flat-square)
 
 An i18next plugin to autodetect a system's language in react native, written in typescript
 
