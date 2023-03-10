@@ -1,4 +1,4 @@
-### 🏳️ i18next-lang-autodetection-react-native
+### i18next-lang-autodetection-react-native
 
 An i18next plugin to autodetect a system's language in react native, written in typescript
 
