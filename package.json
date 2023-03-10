@@ -33,5 +33,6 @@
   "homepage": "https://github.com/EncryptedEasty/i18next-lang-autodetection-react-native#readme",
   "bugs": {
     "url": "https://github.com/EncryptedEasty/i18next-lang-autodetection-react-native/issues"
-  }
+  },
+  "license": "MIT"
 }
