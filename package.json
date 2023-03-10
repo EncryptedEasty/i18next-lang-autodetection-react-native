@@ -1,5 +1,5 @@
 {
-  "name": "@saporeapp/i18next-lang-autodetection-react-native",
+  "name": "i18next-lang-autodetection-react-native",
   "version": "1.0.0",
   "description": "An i18next plugin to autodetect a system's language in react native",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "repository": {
-    "url": "https://github.com/saporeapp/sapidity/utils/i18next-lang-autodetection-react-native"
+    "url": "https://github.com/EncryptedEasty/i18next-lang-autodetection-react-native"
   },
   "keywords": [
     "i18next",
@@ -30,11 +30,8 @@
     "react-native": "*"
   },
   "author": "EncryptedEasty",
-  "homepage": "https://github.com/saporeapp/sapidity/utils/i18next-lang-autodetection-react-native#readme",
+  "homepage": "https://github.com/EncryptedEasty/i18next-lang-autodetection-react-native#readme",
   "bugs": {
-    "url": "https://github.com/saporeapp/sapidity/issues"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@saporeapp"
+    "url": "https://github.com/EncryptedEasty/i18next-lang-autodetection-react-native/issues"
   }
 }
