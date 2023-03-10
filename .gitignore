@@ -1,6 +1,3 @@
-# This file is only applied if the module is used independently
-# Otherwise, the global sapidity .gitignore aleady ignore builds and modules
-
 # Dependencies
 node_modules/
 
