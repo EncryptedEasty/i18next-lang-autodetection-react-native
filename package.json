@@ -23,11 +23,15 @@
   },
   "devDependencies": {
     "i18next": "22.4.9",
-    "react-native": "^0.71.2"
+    "react-native": "^0.71.2",
+    "rimraf": "^4.1.2",
+    "typescript": "^4.9.5"
   },
   "peerDependencies": {
     "i18next": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "rimraf": "*",
+    "typescript": "*"
   },
   "author": "EncryptedEasty",
   "homepage": "https://github.com/EncryptedEasty/i18next-lang-autodetection-react-native#readme",
