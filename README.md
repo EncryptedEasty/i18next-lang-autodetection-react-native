@@ -3,6 +3,20 @@
 An i18next plugin to autodetect a system's language in react native, written in typescript
 
 ---
+#### How to use
+Import the plugin with
+```ts
+import languageDetector from "i18next-lang-autodetection-react-native";
+```
+
+and use it with
+
+```ts
+i18n.use(languageDetector).init({
+  // ...
+});
+```
+You're done! The plugin will automatically detect the system's language and use it as the default language.
 
 #### Example
 
@@ -10,7 +24,7 @@ An i18next plugin to autodetect a system's language in react native, written in 
 
 ```ts
 import i18n from "i18next";
-import languageDetector from "i18next-lang-autodetection-react-native";
+import languageDetector from "i18next-lang-autodetection-react-native"; // Import the Language Detector
 import { initReactI18next } from "react-i18next";
 
 // Translations
@@ -36,3 +50,6 @@ i18n
 
 export default i18n;
 ```
+
+#### License
+MIT
