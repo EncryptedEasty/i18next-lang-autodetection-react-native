@@ -1,6 +1,6 @@
 {
   "name": "i18next-lang-autodetection-react-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An i18next plugin to autodetect a system's language in react native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
