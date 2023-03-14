@@ -1,60 +1,61 @@
 ### i18next-lang-autodetection-react-native ![npm](https://img.shields.io/npm/v/i18next-lang-autodetection-react-native?style=flat-square) ![NPM](https://img.shields.io/npm/l/i18next-lang-autodetection-react-native?style=flat-square)
 
-An i18next plugin to autodetect a system's language in react native, written in typescript
+An i18next plugin to autodetect a system's language in React Native, written in TypeScript.
 
 ---
 
-#### How to use
+#### Installation
+You can install the plugin using either `npm` or `yarn`:
 
-Import the plugin with
-
-```ts
-import languageDetector from "i18next-lang-autodetection-react-native";
+```bash
+npm install i18next-lang-autodetection-react-native
+```
+```bash
+yarn add i18next-lang-autodetection-react-native
 ```
 
-and use it with
+#### Usage
+Import it and add it to your i18next instance using the use() method.
 
-```ts
+```typescript
+import i18next from "i18next";
+import languageDetector from "i18next-lang-autodetection-react-native";
+
 i18next.use(languageDetector).init({
   // ...
 });
 ```
 
-You're done! The plugin will automatically detect the system's language and use it as the default language.
+Once you've added the languageDetector to your i18next instance, it will automatically detect the system's language and use it as the default language. You can also specify a fallback language in case the language detection fails.
 
 #### Example
 
 ###### i18n.ts
 
 ```ts
-import i18n from "i18next";
-import languageDetector from "i18next-lang-autodetection-react-native"; // Import the Language Detector
+import i18next from "i18next";
+import languageDetector from "i18next-lang-autodetection-react-native"; // Import the plugin
 import { initReactI18next } from "react-i18next";
 
-// Translations
-import { en_US, it_IT } from "path/to/lang";
+// Your language files would be imported here
 
-const resources = {
-  en: en_US,
-  it: it_IT,
-};
-
-i18n
+i18next
   .use(languageDetector) // Use the Language detector
   .use(initReactI18next)
   .init({
     resources,
     compatibilityJSON: "v3",
-    fallbackLng: "en", // Fallback Language if the Language Detector fails
+    fallbackLng: "en", // Specify a fallback language
     supportedLngs: ["en", "it"],
     interpolation: {
       escapeValue: false,
     },
   });
 
-export default i18n;
+export default i18next;
 ```
+
 
 #### License
 
-MIT
+This library is licensed under the ![MIT License](https://github.com/EncryptedEasty/i18next-lang-autodetection-react-native/blob/main/LICENSE).
