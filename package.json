@@ -15,14 +15,14 @@
     "i18next-plugin",
     "expo",
     "react-native",
-    "i18next-autodetection"
+    "i18next-languageDetector"
   ],
   "scripts": {
     "build": "rimraf dist && tsc --outDir dist",
     "clean": "rimraf dist"
   },
   "devDependencies": {
-    "i18next": "22.4.9",
+    "i18next": "^22.4.9",
     "react-native": "^0.71.2",
     "rimraf": "^4.1.2",
     "typescript": "^4.9.5"

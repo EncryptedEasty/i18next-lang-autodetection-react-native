@@ -15,7 +15,7 @@ import languageDetector from "i18next-lang-autodetection-react-native";
 and use it with
 
 ```ts
-i18n.use(languageDetector).init({
+i18next.use(languageDetector).init({
   // ...
 });
 ```
